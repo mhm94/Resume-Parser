@@ -1,0 +1,22 @@
+{
+  "name": "Alexander  \nMartensson",
+  "email": "alex@lamnahealthcare.com",
+  "skills": [
+    "Clinical diagnosis",
+    "Patient-centered care",
+    "Health promotion",
+    "Chronic disease management",
+    "Electronic health records"
+  ],
+  "metadata": {
+    "text_length": 995,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 10,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\ATS healthcare resume.pdf",
+    "file_format": ".pdf"
+  }
+}

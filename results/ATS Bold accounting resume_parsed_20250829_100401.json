@@ -1,0 +1,23 @@
+{
+  "name": "DONNA ROBBINS",
+  "email": "donna@example.com",
+  "skills": [
+    "Microsoft NAV Dynamics",
+    "Cashflow planning management",
+    "State federal tax codes",
+    "Bookkeeping",
+    "Exceptional communication",
+    "Fluent in German"
+  ],
+  "metadata": {
+    "text_length": 1811,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 10,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\ATS Bold accounting resume.pdf",
+    "file_format": ".pdf"
+  }
+}

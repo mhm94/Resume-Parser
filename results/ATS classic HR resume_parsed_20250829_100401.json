@@ -1,0 +1,34 @@
+{
+  "name": "Janna Gardner",
+  "email": "janna@example.com",
+  "skills": [
+    "Team player",
+    "excellent communication skills",
+    "Strong negotiating skills",
+    "business acumen",
+    "project management software",
+    "Conflict management",
+    "Public speaking",
+    "Data analytics",
+    "project",
+    "management",
+    "software",
+    "time management skills",
+    "Environmental conservation",
+    "Art",
+    "Yoga",
+    "Skiing",
+    "Travel"
+  ],
+  "metadata": {
+    "text_length": 2196,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 20,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\ATS classic HR resume.docx",
+    "file_format": ".docx"
+  }
+}

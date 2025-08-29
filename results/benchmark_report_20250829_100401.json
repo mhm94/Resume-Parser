@@ -1,0 +1,390 @@
+{
+  "benchmark_info": {
+    "timestamp": "20250829_100401",
+    "total_files_processed": 10,
+    "successful_parsing": 10,
+    "parsing_success_rate": 100.0,
+    "avg_processing_time_seconds": 4.5,
+    "total_runtime_seconds": 70.536
+  },
+  "file_breakdown": {
+    "pdf_files": 5,
+    "docx_files": 5,
+    "other_files": 0
+  },
+  "parsing_performance": {
+    "files_with_names": 10,
+    "files_with_emails": 10,
+    "files_with_skills": 10,
+    "avg_skills_per_resume": 7.3
+  },
+  "evaluation_metrics": {
+    "total_evaluations": 10,
+    "successful_evaluations": 10,
+    "success_rate": 100.0,
+    "name_performance": {
+      "correct": 7,
+      "partial": 3,
+      "incorrect": 0,
+      "success_rate": 100.0
+    },
+    "email_performance": {
+      "correct": 9,
+      "partial": 0,
+      "incorrect": 1,
+      "success_rate": 90.0
+    },
+    "skills_performance": {
+      "correct": 1,
+      "partial": 9,
+      "incorrect": 0,
+      "success_rate": 100.0
+    },
+    "overall_quality_distribution": {
+      "excellent": 0,
+      "good": 7,
+      "fair": 3,
+      "poor": 0
+    },
+    "summary": {
+      "avg_success_rate": 96.66666666666667,
+      "best_field": "name",
+      "worst_field": "email"
+    }
+  },
+  "individual_results": [
+    {
+      "file_name": "ATS basic HR resume.docx",
+      "file_format": ".docx",
+      "parsing_success": true,
+      "processing_time": 5.290501356124878,
+      "extracted_fields": {
+        "name": "CALEB FOSTER",
+        "email": "caleb@example.com",
+        "skills_count": 1,
+        "skills": [
+          "natural leader"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name 'CALEB FOSTER' is accurately extracted and complete. The email 'caleb@example.com' is also correctly extracted and in the proper format. However, the skills extraction is incomplete; it only includes 'natural leader' and misses other potential skills that could be derived from the resume, such as technical skills, certifications, or additional soft skills mentioned in the resume text.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1148,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS Bold accounting resume.pdf",
+      "file_format": ".pdf",
+      "parsing_success": true,
+      "processing_time": 4.960134267807007,
+      "extracted_fields": {
+        "name": "DONNA ROBBINS",
+        "email": "donna@example.com",
+        "skills_count": 6,
+        "skills": [
+          "Microsoft NAV Dynamics",
+          "Cashflow planning management",
+          "State federal tax codes",
+          "Bookkeeping",
+          "Exceptional communication",
+          "Fluent in German"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name 'DONNA ROBBINS' is correctly extracted and complete. The email 'donna@example.com' is also correctly extracted and in the proper format. However, the skills extracted are incomplete as they do not cover all relevant skills mentioned in the resume, such as GAAP expertise, financial statement preparation, and audit support. The skills list lacks some technical and professional competencies that are critical for the accounting role described.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1811,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS bold HR resume.docx",
+      "file_format": ".docx",
+      "parsing_success": true,
+      "processing_time": 5.6021342277526855,
+      "extracted_fields": {
+        "name": "CALEB FOSTER",
+        "email": "caleb@example.com",
+        "skills_count": 1,
+        "skills": [
+          "natural leader"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name 'CALEB FOSTER' is correctly extracted and complete. The email 'caleb@example.com' is also correctly extracted and in the proper format. However, the skills extraction is incomplete as it only lists 'natural leader' and misses other potential skills that could have been identified from the resume, such as specific HR-related skills, tools, or certifications.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1170,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS classic HR resume.docx",
+      "file_format": ".docx",
+      "parsing_success": true,
+      "processing_time": 6.158637285232544,
+      "extracted_fields": {
+        "name": "Janna Gardner",
+        "email": "janna@example.com",
+        "skills_count": 17,
+        "skills": [
+          "Team player",
+          "excellent communication skills",
+          "Strong negotiating skills",
+          "business acumen",
+          "project management software",
+          "Conflict management",
+          "Public speaking",
+          "Data analytics",
+          "project",
+          "management",
+          "software",
+          "time management skills",
+          "Environmental conservation",
+          "Art",
+          "Yoga",
+          "Skiing",
+          "Travel"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name and email were extracted correctly and are complete. However, the skills extraction is partial; while some relevant skills are included, there are also irrelevant or overly broad entries (e.g., 'project', 'management', 'software') and missing specific HR-related skills or certifications that would be expected for a Human Resources Generalist.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 2196,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS healthcare resume.pdf",
+      "file_format": ".pdf",
+      "parsing_success": true,
+      "processing_time": 2.9175608158111572,
+      "extracted_fields": {
+        "name": "Alexander  \nMartensson",
+        "email": "alex@lamnahealthcare.com",
+        "skills_count": 5,
+        "skills": [
+          "Clinical diagnosis",
+          "Patient-centered care",
+          "Health promotion",
+          "Chronic disease management",
+          "Electronic health records"
+        ]
+      },
+      "evaluation": {
+        "name_status": "partial",
+        "email_status": "correct",
+        "skills_status": "correct",
+        "overall_reasoning": "The name extraction is partial because it includes an unnecessary newline character, which affects the formatting but does not change the accuracy of the name itself. The email address is correctly extracted and formatted. The skills are comprehensively identified and accurately extracted, covering relevant areas for the profession.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 995,
+          "truncated": false,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS office manager resume.pdf",
+      "file_format": ".pdf",
+      "parsing_success": true,
+      "processing_time": 2.9168550968170166,
+      "extracted_fields": {
+        "name": "Chanchal \nSharma",
+        "email": "chanchals@example.com",
+        "skills_count": 7,
+        "skills": [
+          "Management",
+          "Project management",
+          "Data analysis",
+          "Communication",
+          "Organization Problem-solving",
+          "Organization",
+          "Problem-solving"
+        ]
+      },
+      "evaluation": {
+        "name_status": "partial",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name extraction is partial because it includes a newline character, which should not be present in a properly formatted name. The email extraction is correct as it is complete and follows the proper format. The skills extraction is partial because it includes duplicates and combines two skills into one entry ('Organization Problem-solving'), which should be separated for clarity. Overall, the extraction has some accuracy but also notable issues that affect completeness.",
+        "extraction_quality": "fair",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1019,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS simple classic resume.pdf",
+      "file_format": ".pdf",
+      "parsing_success": true,
+      "processing_time": 3.122140407562256,
+      "extracted_fields": {
+        "name": "Chanchal \nSharma",
+        "email": "chanchals@example.com",
+        "skills_count": 7,
+        "skills": [
+          "Management",
+          "Project management",
+          "Data analysis",
+          "Communication",
+          "Organization Problem-solving",
+          "Organization",
+          "Problem-solving"
+        ]
+      },
+      "evaluation": {
+        "name_status": "partial",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name extraction is partial because it includes a newline character, which should not be present in a name. The email address is correctly extracted and formatted. The skills extraction is partial as it includes some skills accurately but also duplicates 'Organization' and 'Problem-solving', and misses other potential skills that could have been listed.",
+        "extraction_quality": "fair",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1043,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "ATS stylish accounting resume.docx",
+      "file_format": ".docx",
+      "parsing_success": true,
+      "processing_time": 7.1061835289001465,
+      "extracted_fields": {
+        "name": "Danielle Brasseur",
+        "email": "danielle@example.com",
+        "skills_count": 6,
+        "skills": [
+          "GAAP",
+          "public accounting",
+          "Advanced Financial Accounting",
+          "Reporting",
+          "Financial Accounting",
+          "preparation"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name 'Danielle Brasseur' is correctly extracted and complete. The email 'danielle@example.com' is also correctly extracted and in the proper format. However, the skills extraction is partial; while some relevant skills are identified, it misses other important skills such as collaboration, strategic solutions, and ownership mentality, which are mentioned in the resume. Additionally, the skills related to tools or certifications are not included, which could enhance the completeness of the skills section.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 2669,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "Extended ATS healthcare resume.docx",
+      "file_format": ".docx",
+      "parsing_success": true,
+      "processing_time": 3.5168042182922363,
+      "extracted_fields": {
+        "name": "Shir Rosenstein",
+        "email": "sheetal@example.com",
+        "skills_count": 10,
+        "skills": [
+          "Venipuncture Techniques",
+          "Capillary Puncture Techniques",
+          "Phlebotomy",
+          "venipuncture",
+          "capillary puncture procedures",
+          "blood samples",
+          "laboratory protocols",
+          "medical terminology",
+          "patient privacy regulations",
+          "patient care"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "incorrect",
+        "skills_status": "partial",
+        "overall_reasoning": "The name 'Shir Rosenstein' is correctly extracted and complete. However, the email 'sheetal@example.com' is incorrect as it does not match the name provided in the resume. The skills extraction is partial; while some relevant skills are included, there are missing skills such as 'Medical Law and Ethics' and 'Laboratory Procedures and Equipment' that were mentioned in the resume. Additionally, there are some redundancies in the skills listed (e.g., 'venipuncture' and 'Venipuncture Techniques'). Overall, the extraction has some strengths but also significant issues with the email and completeness of skills.",
+        "extraction_quality": "fair",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1283,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    },
+    {
+      "file_name": "Simple ATS healthcare resume.pdf",
+      "file_format": ".pdf",
+      "parsing_success": true,
+      "processing_time": 3.4129045009613037,
+      "extracted_fields": {
+        "name": "Sheetal Parmar",
+        "email": "sheetal@example.com",
+        "skills_count": 13,
+        "skills": [
+          "Venipuncture Techniques",
+          "Capillary Puncture Techniques",
+          "Phlebotomy",
+          "Venipuncture",
+          "Capillary Puncture",
+          "capillary puncture procedures",
+          "blood samples",
+          "laboratory protocols",
+          "medical terminology",
+          "patient privacy regulations",
+          "patient care",
+          "attention",
+          "to detail"
+        ]
+      },
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "overall_reasoning": "The name 'Sheetal Parmar' is correctly extracted and matches the original resume. The email 'sheetal@example.com' is also correctly extracted and formatted. However, the skills extraction is partial; while it includes relevant skills related to phlebotomy, it lacks some key skills mentioned in the resume, such as 'Laboratory Procedures and Equipment' and 'Medical Law and Ethics'. Additionally, some skills are repeated or phrased inconsistently, which affects the overall completeness.",
+        "extraction_quality": "good",
+        "evaluation_metadata": {
+          "model_used": "gpt-4o-mini",
+          "text_length": 1280,
+          "truncated": true,
+          "extracted_fields_count": 3
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Sheetal Parmar",
+  "email": "sheetal@example.com",
+  "skills": [
+    "Venipuncture Techniques",
+    "Capillary Puncture Techniques",
+    "Phlebotomy",
+    "Venipuncture",
+    "Capillary Puncture",
+    "capillary puncture procedures",
+    "blood samples",
+    "laboratory protocols",
+    "medical terminology",
+    "patient privacy regulations",
+    "patient care",
+    "attention",
+    "to detail"
+  ],
+  "metadata": {
+    "text_length": 1280,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 16,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\Simple ATS healthcare resume.pdf",
+    "file_format": ".pdf"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Shir Rosenstein",
+  "email": "sheetal@example.com",
+  "skills": [
+    "Venipuncture Techniques",
+    "Capillary Puncture Techniques",
+    "Phlebotomy",
+    "venipuncture",
+    "capillary puncture procedures",
+    "blood samples",
+    "laboratory protocols",
+    "medical terminology",
+    "patient privacy regulations",
+    "patient care"
+  ],
+  "metadata": {
+    "text_length": 1283,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 13,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\Extended ATS healthcare resume.docx",
+    "file_format": ".docx"
+  }
+}

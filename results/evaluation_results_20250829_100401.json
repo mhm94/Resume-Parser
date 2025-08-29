@@ -1,0 +1,202 @@
+[
+  {
+    "file_info": {
+      "file_name": "ATS basic HR resume.docx",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS basic HR resume.docx"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name 'CALEB FOSTER' is accurately extracted and complete. The email 'caleb@example.com' is also correctly extracted and in the proper format. However, the skills extraction is incomplete; it only includes 'natural leader' and misses other potential skills that could be derived from the resume, such as technical skills, certifications, or additional soft skills mentioned in the resume text.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1148,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS Bold accounting resume.pdf",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS Bold accounting resume.pdf"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name 'DONNA ROBBINS' is correctly extracted and complete. The email 'donna@example.com' is also correctly extracted and in the proper format. However, the skills extracted are incomplete as they do not cover all relevant skills mentioned in the resume, such as GAAP expertise, financial statement preparation, and audit support. The skills list lacks some technical and professional competencies that are critical for the accounting role described.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1811,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS bold HR resume.docx",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS bold HR resume.docx"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name 'CALEB FOSTER' is correctly extracted and complete. The email 'caleb@example.com' is also correctly extracted and in the proper format. However, the skills extraction is incomplete as it only lists 'natural leader' and misses other potential skills that could have been identified from the resume, such as specific HR-related skills, tools, or certifications.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1170,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS classic HR resume.docx",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS classic HR resume.docx"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name and email were extracted correctly and are complete. However, the skills extraction is partial; while some relevant skills are included, there are also irrelevant or overly broad entries (e.g., 'project', 'management', 'software') and missing specific HR-related skills or certifications that would be expected for a Human Resources Generalist.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 2196,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS healthcare resume.pdf",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS healthcare resume.pdf"
+    },
+    "evaluation": {
+      "name_status": "partial",
+      "email_status": "correct",
+      "skills_status": "correct",
+      "overall_reasoning": "The name extraction is partial because it includes an unnecessary newline character, which affects the formatting but does not change the accuracy of the name itself. The email address is correctly extracted and formatted. The skills are comprehensively identified and accurately extracted, covering relevant areas for the profession.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 995,
+        "truncated": false,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS office manager resume.pdf",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS office manager resume.pdf"
+    },
+    "evaluation": {
+      "name_status": "partial",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name extraction is partial because it includes a newline character, which should not be present in a properly formatted name. The email extraction is correct as it is complete and follows the proper format. The skills extraction is partial because it includes duplicates and combines two skills into one entry ('Organization Problem-solving'), which should be separated for clarity. Overall, the extraction has some accuracy but also notable issues that affect completeness.",
+      "extraction_quality": "fair",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1019,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS simple classic resume.pdf",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS simple classic resume.pdf"
+    },
+    "evaluation": {
+      "name_status": "partial",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name extraction is partial because it includes a newline character, which should not be present in a name. The email address is correctly extracted and formatted. The skills extraction is partial as it includes some skills accurately but also duplicates 'Organization' and 'Problem-solving', and misses other potential skills that could have been listed.",
+      "extraction_quality": "fair",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1043,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "ATS stylish accounting resume.docx",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\ATS stylish accounting resume.docx"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name 'Danielle Brasseur' is correctly extracted and complete. The email 'danielle@example.com' is also correctly extracted and in the proper format. However, the skills extraction is partial; while some relevant skills are identified, it misses other important skills such as collaboration, strategic solutions, and ownership mentality, which are mentioned in the resume. Additionally, the skills related to tools or certifications are not included, which could enhance the completeness of the skills section.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 2669,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "Extended ATS healthcare resume.docx",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\Extended ATS healthcare resume.docx"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "incorrect",
+      "skills_status": "partial",
+      "overall_reasoning": "The name 'Shir Rosenstein' is correctly extracted and complete. However, the email 'sheetal@example.com' is incorrect as it does not match the name provided in the resume. The skills extraction is partial; while some relevant skills are included, there are missing skills such as 'Medical Law and Ethics' and 'Laboratory Procedures and Equipment' that were mentioned in the resume. Additionally, there are some redundancies in the skills listed (e.g., 'venipuncture' and 'Venipuncture Techniques'). Overall, the extraction has some strengths but also significant issues with the email and completeness of skills.",
+      "extraction_quality": "fair",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1283,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  },
+  {
+    "file_info": {
+      "file_name": "Simple ATS healthcare resume.pdf",
+      "file_path": "D:\\python_projects\\resumeparser\\data\\Simple ATS healthcare resume.pdf"
+    },
+    "evaluation": {
+      "name_status": "correct",
+      "email_status": "correct",
+      "skills_status": "partial",
+      "overall_reasoning": "The name 'Sheetal Parmar' is correctly extracted and matches the original resume. The email 'sheetal@example.com' is also correctly extracted and formatted. However, the skills extraction is partial; while it includes relevant skills related to phlebotomy, it lacks some key skills mentioned in the resume, such as 'Laboratory Procedures and Equipment' and 'Medical Law and Ethics'. Additionally, some skills are repeated or phrased inconsistently, which affects the overall completeness.",
+      "extraction_quality": "good",
+      "evaluation_metadata": {
+        "model_used": "gpt-4o-mini",
+        "text_length": 1280,
+        "truncated": true,
+        "extracted_fields_count": 3
+      }
+    },
+    "success": true
+  }
+]

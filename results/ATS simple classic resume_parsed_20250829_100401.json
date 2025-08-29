@@ -1,0 +1,24 @@
+{
+  "name": "Chanchal \nSharma",
+  "email": "chanchals@example.com",
+  "skills": [
+    "Management",
+    "Project management",
+    "Data analysis",
+    "Communication",
+    "Organization Problem-solving",
+    "Organization",
+    "Problem-solving"
+  ],
+  "metadata": {
+    "text_length": 1043,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 11,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\ATS simple classic resume.pdf",
+    "file_format": ".pdf"
+  }
+}

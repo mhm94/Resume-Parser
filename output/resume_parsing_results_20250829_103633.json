@@ -1,0 +1,250 @@
+{
+  "results": [
+    {
+      "file_name": "ATS basic HR resume.docx",
+      "parsed_data": {
+        "name": "CALEB FOSTER",
+        "email": "caleb@example.com",
+        "skills": [
+          "natural leader"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "fair",
+        "overall_reasoning": "The name and email were extracted correctly. However, the skills extraction is incomplete as it only includes 'natural leader' and misses other relevant skills that could be inferred from the resume text, such as 'communication' and 'leadership'. Overall, the extraction quality is fair due to the missing skills."
+      }
+    },
+    {
+      "file_name": "ATS Bold accounting resume.pdf",
+      "parsed_data": {
+        "name": "DONNA ROBBINS",
+        "email": "donna@example.com",
+        "skills": [
+          "Microsoft NAV Dynamics",
+          "State  federal tax codes",
+          "Bookkeeping",
+          "Exceptional communication",
+          "Fluent in German",
+          "GAAP"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "good",
+        "overall_reasoning": "The name and email were extracted accurately. The skills list is mostly correct but includes a minor formatting issue with 'State & federal tax codes' which should be 'State & federal tax codes' without the extra space. Additionally, 'GAAP' was mentioned in the resume but not included in the extracted skills list, which is a significant omission. Overall, the extraction is good but could be improved with complete skills representation."
+      }
+    },
+    {
+      "file_name": "ATS bold HR resume.docx",
+      "parsed_data": {
+        "name": "CALEB FOSTER",
+        "email": "caleb@example.com",
+        "skills": [
+          "natural leader"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "fair",
+        "overall_reasoning": "The name and email were extracted correctly. However, the skills extraction is incomplete as it only includes 'natural leader' without capturing any other relevant skills or competencies that may have been implied in the resume text."
+      }
+    },
+    {
+      "file_name": "ATS classic HR resume.docx",
+      "parsed_data": {
+        "name": "Janna Gardner",
+        "email": "janna@example.com",
+        "skills": [
+          "Team player",
+          "Strong negotiating skills",
+          "business acumen",
+          "Conflict management",
+          "Public speaking",
+          "Data analytics",
+          "communication",
+          "negotiating skills",
+          "project",
+          "management",
+          "software",
+          "time management skills",
+          "Literature",
+          "Art",
+          "Yoga"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "good",
+        "overall_reasoning": "The name and email were extracted accurately. However, the skills list is incomplete and contains some inaccuracies, such as including 'project', 'management', and 'software' as separate skills instead of as part of 'project management software'. Additionally, 'communication' is mentioned twice in different forms. Overall, the extraction is good but could be improved for the skills section."
+      }
+    },
+    {
+      "file_name": "ATS healthcare resume.pdf",
+      "parsed_data": {
+        "name": "Alexander  \nMartensson",
+        "email": "alex@lamnahealthcare.com",
+        "skills": [
+          "Clinical diagnosis",
+          "Patient-centered care",
+          "Health promotion",
+          "Electronic health records",
+          "Trail running"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "good",
+        "overall_reasoning": "The name and email were extracted correctly. However, the skills list is missing 'Chronic disease management' and 'Health promotion', and incorrectly includes 'Trail running', which is a hobby, not a skill. Overall, the extraction is good but not perfect due to the skills inaccuracies."
+      }
+    },
+    {
+      "file_name": "ATS office manager resume.pdf",
+      "parsed_data": {
+        "name": "Chanchal \nSharma",
+        "email": "chanchals@example.com",
+        "skills": [
+          "Management",
+          "Project management",
+          "Data analysis",
+          "Communication",
+          "LinkedIn",
+          "Organization",
+          "Problem-solving"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "good",
+        "overall_reasoning": "The name and email were extracted accurately. However, the skills list includes 'LinkedIn', which is not a skill but a platform, making the skills extraction partial. Overall, the extraction quality is good due to the accurate name and email."
+      }
+    },
+    {
+      "file_name": "ATS simple classic resume.pdf",
+      "parsed_data": {
+        "name": "Chanchal \nSharma",
+        "email": "chanchals@example.com",
+        "skills": [
+          "Management",
+          "Project management",
+          "Data analysis",
+          "Communication",
+          "Organization",
+          "Problem-solving"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "correct",
+        "extraction_quality": "excellent",
+        "overall_reasoning": "All fields were accurately extracted with no missing or incorrect information. The name, email, and skills are all correctly identified and formatted."
+      }
+    },
+    {
+      "file_name": "ATS stylish accounting resume.docx",
+      "parsed_data": {
+        "name": "Danielle Brasseur",
+        "email": "danielle@example.com",
+        "skills": [
+          "expertise",
+          "GAAP",
+          "solutions",
+          "business growth",
+          "collaboration",
+          "ownership mentality"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "good",
+        "overall_reasoning": "The name and email were extracted accurately. However, the skills list is incomplete as it does not capture all relevant skills mentioned in the resume text, such as 'accountant' and 'public accounting experience', which are significant to the candidate's profile."
+      }
+    },
+    {
+      "file_name": "Extended ATS healthcare resume.docx",
+      "parsed_data": {
+        "name": "Shir Rosenstein",
+        "email": "",
+        "skills": [
+          "Phlebotomist"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "incorrect",
+        "skills_status": "correct",
+        "extraction_quality": "fair",
+        "overall_reasoning": "The name was extracted correctly, and the skill 'Phlebotomist' was accurately identified. However, the email field is missing entirely, which is a significant omission. Overall, the extraction quality is fair due to the missing email."
+      }
+    },
+    {
+      "file_name": "Simple ATS healthcare resume.pdf",
+      "parsed_data": {
+        "name": "Sheetal Parmar",
+        "email": "sheetal@example.com",
+        "skills": [
+          "Venipuncture Techniques",
+          "attention \nto detail",
+          "Phlebotomy",
+          "Laboratory Procedures",
+          "Equipment",
+          "venipuncture",
+          "blood samples",
+          "laboratory protocols",
+          "medical terminology",
+          "patient care",
+          "attention",
+          "to detail"
+        ]
+      },
+      "success": true,
+      "evaluation": {
+        "name_status": "correct",
+        "email_status": "correct",
+        "skills_status": "partial",
+        "extraction_quality": "good",
+        "overall_reasoning": "The name and email were extracted accurately. However, the skills list contains duplicates and some phrases that are not standalone skills (e.g., 'attention to detail' is split into two entries). This affects the overall quality of the skills extraction, making it partial."
+      }
+    }
+  ],
+  "metrics": {
+    "total_files": 10,
+    "successful_parses": 10,
+    "success_rate": 100.0,
+    "avg_skills_per_resume": 6.0,
+    "evaluation_count": 10,
+    "name_accuracy": 100.0,
+    "email_accuracy": 90.0,
+    "skills_accuracy": 100.0,
+    "overall_quality_distribution": {
+      "excellent": 1,
+      "good": 6,
+      "fair": 3,
+      "poor": 0
+    }
+  }
+}

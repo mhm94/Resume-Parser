@@ -1,0 +1,18 @@
+{
+  "name": "CALEB FOSTER",
+  "email": "caleb@example.com",
+  "skills": [
+    "natural leader"
+  ],
+  "metadata": {
+    "text_length": 1148,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 5,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\ATS basic HR resume.docx",
+    "file_format": ".docx"
+  }
+}

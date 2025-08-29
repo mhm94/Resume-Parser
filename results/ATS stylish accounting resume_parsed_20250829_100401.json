@@ -1,0 +1,23 @@
+{
+  "name": "Danielle Brasseur",
+  "email": "danielle@example.com",
+  "skills": [
+    "GAAP",
+    "public accounting",
+    "Advanced Financial Accounting",
+    "Reporting",
+    "Financial Accounting",
+    "preparation"
+  ],
+  "metadata": {
+    "text_length": 2669,
+    "models_used": [
+      "GLiNER",
+      "NuNER_Zero"
+    ],
+    "entities_found": 9,
+    "processing_successful": true,
+    "file_path": "D:\\python_projects\\resumeparser\\data\\ATS stylish accounting resume.docx",
+    "file_format": ".docx"
+  }
+}
